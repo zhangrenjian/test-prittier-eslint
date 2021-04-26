@@ -38,9 +38,9 @@ export default {
       console.log(111);
     },
     aa() {
-      let a  
+          let a  
       const b = 1;
-      const c = 'asdsa'
+           const c = 'asdsa'
     }
   }
 }
