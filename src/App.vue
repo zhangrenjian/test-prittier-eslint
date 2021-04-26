@@ -8,6 +8,11 @@
       </div>
          <div class="c">
            cl里面的 内容
+           <ul>
+             <li v-for="item in nameArr">
+               {{ item }}
+             </li>
+           </ul>
          </div>
     </div>
   </div>
@@ -24,7 +29,8 @@ export default {
   data() {
     return{
       name:"121",
-      age: 'age'
+      age: 'age',
+      nameArr: ['1','2','3']
     }
   },
   methods: {
