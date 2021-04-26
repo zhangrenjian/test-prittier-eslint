@@ -34,6 +34,7 @@ export default {
     aa() {
       let a  
       const b = 1;
+      const c = 'asdsa'
     }
   }
 }
